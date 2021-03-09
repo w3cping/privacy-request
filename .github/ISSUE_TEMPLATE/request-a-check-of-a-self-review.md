@@ -1,6 +1,6 @@
 ---
 name: Request a check of a self-review
-about: If you have completed a self-review, use this form to request that Privacy check
+about: If you have completed a self-review, use this form to request that PING check
   it out.
 title: Spec_name 2021-mm-dd
 labels: REVIEW REQUESTED, SR, pending
