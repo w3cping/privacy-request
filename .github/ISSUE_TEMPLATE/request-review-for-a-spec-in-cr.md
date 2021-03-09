@@ -14,6 +14,7 @@ In the issue title above add the document name followed by the date of this requ
 
 - What and when is your next expected transition?
 - What has changed since any previous review?
+- Does your document have an in-line Privacy Considerations section, separate from Security Considerations?  If not, corrrect that before proceeding further.
 - Please point to the results of your own self-review (see https://w3ctag.github.io/security-questionnaire/ , https://w3c.github.io/fingerprinting-guidance/, https://tools.ietf.org/html/rfc6973)
 - Where and how to file issues arising?
 - Pointer to any explainer for the spec?
