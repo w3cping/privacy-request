@@ -5,3 +5,6 @@ A runnning list of privacy reviews and reviewers for 2021:
 * CSS Color Adjustment Module Level 1 - Matthew Finkel (Tor)
 * CSS Custom Highlight API Module Level 1 - Matthew Finkel (Tor)
 * Decentralized Indentifer Specification v1.0 - Joe Genereux (Brave)
+* Federated Learning of Cohorts (FLoC) - Pete Synder (Brave) and Kris Chapman (Salesforce)
+* ARIA in HTML - Shivan Sahib (Salesforce)
+* Media Capabilities - (Roy) Lei Mu
