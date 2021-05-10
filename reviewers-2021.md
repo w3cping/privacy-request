@@ -7,4 +7,5 @@ A runnning list of privacy reviews and reviewers for 2021:
 * Decentralized Indentifer Specification v1.0 - Joe Genereux (Brave)
 * Federated Learning of Cohorts (FLoC) - Pete Synder (Brave) and Kris Chapman (Salesforce)
 * ARIA in HTML - Shivan Sahib (Salesforce)
-* Media Capabilities - (Roy) Lei Mu
+* Media Capabilities - (Roy) Lei Mu (Invited Expert)
+* WebCodecs - Jonathan Kingston (DuckDuckGo)
