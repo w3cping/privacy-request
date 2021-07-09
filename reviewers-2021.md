@@ -9,3 +9,5 @@ A runnning list of privacy reviews and reviewers for 2021:
 * ARIA in HTML - Shivan Sahib (Salesforce)
 * Media Capabilities - (Roy) Lei Mu (Invited Expert)
 * WebCodecs - Jonathan Kingston (DuckDuckGo)
+* CSS multi-column Layout Module Level 1 - Pranjal Jumde (Brave)
+* Resource Timing - Konrad Dzwinel (DuckDuckGo)
