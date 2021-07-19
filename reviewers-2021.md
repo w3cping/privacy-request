@@ -11,3 +11,6 @@ A runnning list of privacy reviews and reviewers for 2021:
 * WebCodecs - Jonathan Kingston (DuckDuckGo)
 * CSS multi-column Layout Module Level 1 - Pranjal Jumde (Brave)
 * Resource Timing - Konrad Dzwinel (DuckDuckGo)
+* Media Stream Image Capture - Peter Synder (Brave)
+* Performance Timeline - Konrad Dzwinel (DuckDuckGo)
+* User Timing - Konrad Dzwinel (DuckDuckGo)
