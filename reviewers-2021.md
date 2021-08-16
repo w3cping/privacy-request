@@ -14,3 +14,4 @@ A runnning list of privacy reviews and reviewers for 2021:
 * Media Stream Image Capture - Peter Synder (Brave)
 * Performance Timeline - Konrad Dzwinel (DuckDuckGo)
 * User Timing - Konrad Dzwinel (DuckDuckGo)
+* HTML Review Draft - Pete Synder (Brave)
