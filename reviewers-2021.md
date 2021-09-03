@@ -15,3 +15,5 @@ A runnning list of privacy reviews and reviewers for 2021:
 * Performance Timeline - Konrad Dzwinel (DuckDuckGo)
 * User Timing - Konrad Dzwinel (DuckDuckGo)
 * HTML Review Draft - Pete Synder (Brave)
+* DOM Review Draft - Matthew Finkel (Tor) and Eric Mwobobia (ARTICLE19)
+* CSS Scrollbars Level 1 - Jonathan Kingston (DuckDuckGo)
