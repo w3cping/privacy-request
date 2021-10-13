@@ -19,3 +19,4 @@ A runnning list of privacy reviews and reviewers for 2021:
 * CSS Scrollbars Level 1 - Jonathan Kingston (DuckDuckGo)
 * EPUB 3.3 - Nick Doty (Invited Expert)
 * CSS Masking Module Level 1 - (Roy) Lei Mu (Invited Expert) and Pete Synder (Brave)
+* CSS Display 3 - Kris Chapman (Salesforce)
