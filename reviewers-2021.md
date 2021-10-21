@@ -20,3 +20,5 @@ A runnning list of privacy reviews and reviewers for 2021:
 * EPUB 3.3 - Nick Doty (Invited Expert)
 * CSS Masking Module Level 1 - (Roy) Lei Mu (Invited Expert) and Pete Synder (Brave)
 * CSS Display 3 - Kris Chapman (Salesforce)
+* Secure Payment Confirmation - Pete Synder (Brave) and Sam Weiler (W3C)
+* CSS Cascading and Inheritance Levels 4 and 5 - Aram Zucker-Scharff (The Washington Post)
