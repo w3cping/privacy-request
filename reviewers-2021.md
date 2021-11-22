@@ -22,3 +22,4 @@ A runnning list of privacy reviews and reviewers for 2021:
 * CSS Display 3 - Kris Chapman (Salesforce)
 * Secure Payment Confirmation - Pete Synder (Brave) and Sam Weiler (W3C)
 * CSS Cascading and Inheritance Levels 4 and 5 - Aram Zucker-Scharff (The Washington Post)
+* Incremental Font Transfer - Pete Synder (Brave)
