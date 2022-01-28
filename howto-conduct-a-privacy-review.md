@@ -1,4 +1,4 @@
-# How to Conduct a PING Privacy Reviews
+# How to Conduct a PING Privacy Review
 (or, "what to expect when you're inspecting a spec")
 
 
@@ -200,3 +200,4 @@ else.
 - [Self-Review Questionnaire: Security and Privacy](https://w3ctag.github.io/security-questionnaire/)
 - [Privacy Anti-Patterns in Standards](https://www.w3.org/blog/2019/06/privacy-anti-patterns-in-standards/)
 - [PING Signup Form](https://www.w3.org/2004/01/pp-impl/52497/join)
+- [Open Privacy Tracking Issues](https://w3c.github.io/horizontal-issue-tracker/?repo=w3cping/tracking-issues)
