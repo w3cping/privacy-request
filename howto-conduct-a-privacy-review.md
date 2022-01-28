@@ -127,49 +127,49 @@ The final step in the review process is to present your findings to the
 working group that requested the review in the first place. This
 is done in several steps.
 
-**First**, create GitHub issues for each privacy issue you identified in the
-proposal's repo *not on the PING privacy-request issue*; the PING
-privacy-request repo keeps track of privacy review requests PING receives, but
-the substance of those reviews (i.e., the issues that need to be addressed
-in the proposed spec) must be filed in the repo for the proposed spec.
-For example, [privacy request #56]([Review #56](https://github.com/w3cping/privacy-request/issues/56)
-is an issue in PING's privacy-request repo, but issues resulting for the review
-should be filed in the [Secure Payment Confirmation repo](https://github.com/w3c/secure-payment-confirmation/issues).
+1.  Create GitHub issues for each privacy issue you identified in the
+    proposal's repo *not on the PING privacy-request issue*; the PING
+    privacy-request repo keeps track of privacy review requests PING receives, but
+    the substance of those reviews (i.e., the issues that need to be addressed
+    in the proposed spec) must be filed in the repo for the proposed spec.
+    For example, [privacy request #56]([Review #56](https://github.com/w3cping/privacy-request/issues/56)
+    is an issue in PING's privacy-request repo, but issues resulting for the review
+    should be filed in the [Secure Payment Confirmation repo](https://github.com/w3c/secure-payment-confirmation/issues).
 
-Create one issue in the working group's repo for each privacy issue you
-identified. We suggest starting each filed issue by noting i) that the issue
-was the result of a PING privacy review, and ii) with a link back to
-the privacy-requests issue requesting the privacy review. See, for example,
-the first line of [this issue](https://github.com/w3c/imsc-hrm/issues/28).
+    Create one issue in the working group's repo for each privacy issue you
+    identified. We suggest starting each filed issue by noting i) that the issue
+    was the result of a PING privacy review, and ii) with a link back to
+    the privacy-requests issue requesting the privacy review. See, for example,
+    the first line of [this issue](https://github.com/w3c/imsc-hrm/issues/28).
+    
+    Each privacy issue you create should include the following:
+    
+    -   A brief and succinct description of the privacy issue you identified
+    -   If applicable, what resolution you think would be appropriate to solve / address
+        the issue. It **is not** your responsibility to suggest a solution to the
+        problem you identified (i.e., you don't need to provide a solution to the privacy
+        vulnerability), though it can be helpful to say what criteria you would judge
+        a solution by. For example, if you identify new browser fingerprinting
+        surface exposed by proposed spec, its helpful to say "this issue would be
+        resolved by preventing fingerprinting scripts from accessing this information",
+        but its not your responsibility to say "the spec should prevent fingerprinting
+        scripts from accessing this information through methods X, Y, and Z."
+    -   Add either a `privacy-tracker` or `privacy-needs-resolution` label to the
+        issue (but not both). The `privacy-tracker` label denotes that you want
+        to bring the issue to the group's attention, but don't think the issue is
+        critical. The `privacy-needs-resolution` label denotes that you think the
+        identified issue is critical, and that the proposal should not continue
+        through the standardization process until the issue is addressed.
+    
+2.  Once you've created an issue in the proposed spec's repo for each
+    privacy concern you've identified, add a comment on the original
+    privacy-requests issue summarizing your review. This summary can be just
+    a list of issues you've identified; it does not need to include additional
+    text. [This comment on the review of the IMSC-HRM proposal](https://github.com/w3cping/privacy-request/issues/65#issuecomment-1006978947)
+    gives an example of such a review-summary comment.
 
-Each privacy issue you create should include the following:
-
-- A brief and succinct description of the privacy issue you identified
-- If applicable, what resolution you think would be appropriate to solve / address
-  the issue. It **is not** your responsibility to suggest a solution to the
-  problem you identified (i.e., you don't need to provide a solution to the privacy
-  vulnerability), though it can be helpful to say what criteria you would judge
-  a solution by. For example, if you identify new browser fingerprinting
-  surface exposed by proposed spec, its helpful to say "this issue would be
-  resolved by preventing fingerprinting scripts from accessing this information",
-  but its not your responsibility to say "the spec should prevent fingerprinting
-  scripts from accessing this information through methods X, Y, and Z."
-- Add either a `privacy-tracker` or `privacy-needs-resolution` label to the
-  issue (but not both). The `privacy-tracker` label denotes that you want
-  to bring the issue to the group's attention, but don't think the issue is
-  critical. The `privacy-needs-resolution` label denotes that you think the
-  identified issue is critical, and that the proposal should not continue
-  through the standardization process until the issue is addressed.
-
-Second, once you've created an issue in the proposed spec's repo for each
-privacy concern you've identified, add a comment on the original
-privacy-requests issue summarizing your review. This summary can be just
-a list of issues you've identified; it does not need to include additional
-text. [This comment on the review of the IMSC-HRM proposal](https://github.com/w3cping/privacy-request/issues/65#issuecomment-1006978947)
-gives an example of such a review-summary comment.
-
-Third and finally, mark the privacy review complete by closing the
-privacy-requests issue.
+3.  Finally, mark the privacy review complete by closing the
+    privacy-requests issue.
 
 
 ### <a id="following-up" />5. Following Up on a Review
