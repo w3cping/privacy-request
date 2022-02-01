@@ -9,7 +9,7 @@ free to reach out with any questions or concerns you have. The current leads
 of PING are (in alphabetical order):
 
 - Nick Doty (ndoty@cdt.org, <abbr name="Center for Democracy and Technology">CDT</abbr>)
-- Christine Runnegar (runnegar@isoc.org, <abbr name="Internet Society">ISOC</abbr>)
+- Christine Runnegar (runnegar@isoc.org, Invited Expert)
 - Wendy Seltzer (wseltzer@w3.org, W3C Strategy Lead)
 - Peter Snyder (pes@brave.com, Brave Software)
 - Samuel Weiler (weiler@w3.org, W3C Security and Privacy Strategist)
@@ -39,29 +39,28 @@ in PING's [privacy-request repo on GitHub](https://github.com/w3cping/privacy-re
 New requests will appear as [open issues](https://github.com/w3cping/privacy-request/issues).
 
 When PING receives a new request, the PING chairs will usually send a message
-out to all PING members to see if anyone volunteers to perform the review,
-though sometimes PING chairs may conduct the review themselves, or approach
-area experts directly. If you see a new review request for a proposal
-you'd like to review though, feel free to contact a PING chair and let them
+out to all PING members in the PING Slack workspace #privacyreviews to invite volunteers to perform the review.
+Sometimes, PING chairs may approach area experts directly or take on the review themselves. If you see a new review request for a spec
+you would like to review, please feel free to contact a PING chair and let them
 know. Most likely this will make their day and they'll happily assign the
-review to you.
+review to you. 
 
 Usually a proposal is reviewed by just one PING member, though occasionally
 two or more PING members may collaborate on a review. This is more common
 when a proposed spec is very long, highly technical, or one of the reviewers
-are new to the process.
+is new to the process.
 
 PING keeps track of which reviewer(s) are reviewing which spec by using the
 "assigned to" field on each privacy-request issue.
 [Review #56](https://github.com/w3cping/privacy-request/issues/56), for example,
 was reviewed by three reviewers.
 
-PING communication is mostly done over Slack. If you would like to participate
-in reviews, but are not on the PING slack, please contact a PING chair.
+PING communication for privacy reviews is mostly done over Slack. If you would like to participate
+in reviews, but are not yet on the PING Slack workspace, please contact a PING chair.
 
 
 ### <a id="reviewing-a-spec" />2. Conducting the Review
-Once you've been assigned a privacy review, you can find the of the proposed
+Once you've been assigned a privacy review, you can find the proposed
 spec to review in the text of the privacy-review issue. For example,
 [privacy-request #56](https://github.com/w3cping/privacy-request/issues/56)
 is a request from the [W3C Web Payments Working Group](https://www.w3.org/Payments/WG/),
@@ -81,7 +80,7 @@ When reviewing the proposal, you should take care to read the entire proposal.
 A comprehensive list of technical issues to consider is beyond the scope
 of this document, but the W3C's [Security and Privacy Self-Review Questionnaire](https://w3ctag.github.io/security-questionnaire/)
 (co-maintained by the W3C <abbr name="Technical Architecture Group">TAG</abbr> and PING)
-may be helpful in identifying questions and issues to consider during your review.
+may be helpful in identifying questions and issues to consider during your review. Another useful resource is PING's Group Note on [Mitigating Browser Fingerprinting in Web specifications](https://www.w3.org/TR/fingerprinting-guidance/).
 
 Note the issues you identify during your review for later discussion. Issues
 could either be specific issues you've identified, or general concerns
@@ -90,20 +89,20 @@ you're not sure about and would like to discuss with other members in PING.
 
 ### <a id="presenting-a-review" />3. Presenting Your Review to PING
 The next step is to present your findings to the rest of PING, usually by
-joining one of PING's bi-weekly calls. Information for when PINGs calls are, and
-how to join those calls, are on the [PING home page](https://www.w3.org/Privacy/IG/).
+joining one of PING's bi-weekly calls. Information about PINGs calls and
+how to join those calls are on the [PING home page](https://www.w3.org/Privacy/IG/).
 A PING chair will work with you to add your review to a meeting agenda.
 
-Presenting a review on a call is an informal process, and most of the
-time members of the working group proposing the spec *are not* on the call.
+Presenting a review on a call is an informal process. Most of the
+time members of the working group proposing the spec *are not* on the call. But, sometimes where it would be helpful for the reviewer and the relevant working group, editors and other members of the working group will be invited to provide an overview of the spec and to discuss its privacy considerations.
 
 The review discussion process starts with the reviewer(s) summarizing 
 the proposed spec to the rest of PING. These summaries are generally high
-level, and not intended to on the level of describing specific method calls
-or implementation algorithms. The goal is to provide the rest of PING with
+level, and not intended to describe specific method calls
+or implementation algorithms in detail. The goal is to provide the rest of PING with
 an understanding of the goals of the proposal, and enough background to
 understand the privacy issues you've identified (and to suggest additional
-possible areas of concern).
+possible areas of concern). It is helpful to describe the spec functions and features.
 
 Next, reviewers describe each privacy issue they identified during their
 review. These might be issues the reviewer is confident about, or concerns
@@ -114,12 +113,12 @@ as needed.
 After discussion, the reviewer will retain, discard, or alter the privacy
 issues they've identified as the reviewer sees fit. **Note that issues
 from privacy reviews are filed as individuals, not collectively by PING
-as a group.** This means that PING members may disagree on the results
+as a group.** This means that individual PING members may disagree on the results
 of a privacy review, or might even file contradictory privacy issues if
-PING members disagree. In the case that a PING privacy review results in 
+PING members disagree. Disagreement is rare. In the case that a PING privacy review results in 
 contradictory (or mutually exclusive) issues being filed, its the responsibility
 of the working group making the proposal (and, ultimately the director)
-to figure out how to proceed.
+to figure out how to proceed. However, the chairs will work with the working group and reviewer as needed with the aim of resolving any outstanding issues. 
 
 
 ### <a id="finishing-a-review" />4. Documenting Your Review
@@ -149,7 +148,7 @@ is done in several steps.
         the issue. It **is not** your responsibility to suggest a solution to the
         problem you identified (i.e., you don't need to provide a solution to the privacy
         vulnerability), though it can be helpful to say what criteria you would judge
-        a solution by. For example, if you identify new browser fingerprinting
+        a solution by or to provide a solution if you have one. For example, if you identify new browser fingerprinting
         surface exposed by proposed spec, its helpful to say "this issue would be
         resolved by preventing fingerprinting scripts from accessing this information",
         but its not your responsibility to say "the spec should prevent fingerprinting
@@ -168,8 +167,7 @@ is done in several steps.
     text. [This comment on the review of the IMSC-HRM proposal](https://github.com/w3cping/privacy-request/issues/65#issuecomment-1006978947)
     gives an example of such a review-summary comment.
 
-3.  Finally, mark the privacy review complete by closing the
-    privacy-requests issue.
+3.  Finally, after you discuss the privacy review in a PING call, the chairs will close the privacy-requests issue. In some cases, the closing comment will note that there are still unresolved issues that will be tracked via the privacy-tracker.
 
 
 ### <a id="following-up" />5. Following Up on a Review
@@ -198,6 +196,7 @@ else.
 - [PING Home Page](https://www.w3.org/Privacy/IG/)
 - [PING "Privacy Requests" Repo](https://github.com/w3cping/privacy-request/)
 - [Self-Review Questionnaire: Security and Privacy](https://w3ctag.github.io/security-questionnaire/)
+- [Mitigating Browser Fingerprinting in Web specifications](https://www.w3.org/TR/fingerprinting-guidance/)
 - [Privacy Anti-Patterns in Standards](https://www.w3.org/blog/2019/06/privacy-anti-patterns-in-standards/)
 - [PING Signup Form](https://www.w3.org/2004/01/pp-impl/52497/join)
 - [Open Privacy Tracking Issues](https://w3c.github.io/horizontal-issue-tracker/?repo=w3cping/tracking-issues)
