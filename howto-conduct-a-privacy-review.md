@@ -5,28 +5,21 @@
 ## Questions and Concerns
 This document is managed by the <abbr name="Privacy Interest Group">PING</abbr>
 chairs and <abbr name="World Wide Web Consortium">W3C</abbr> staff. Please feel
-free to reach out with any questions or concerns you have. The current leads
-of PING are (in alphabetical order):
-
-- Nick Doty (ndoty@cdt.org, <abbr name="Center for Democracy and Technology">CDT</abbr>)
-- Christine Runnegar (runnegar@isoc.org, Invited Expert)
-- Wendy Seltzer (wseltzer@w3.org, W3C Strategy Lead)
-- Peter Snyder (pes@brave.com, Brave Software)
-- Samuel Weiler (weiler@w3.org, W3C Security and Privacy Strategist)
+free to reach out with any questions or concerns you have.
+<a href="https://www.w3.org/groups/ig/privacy/participants">List of current chairs and team contacts</a>
 
 
 ## Goals
 This document is intended to provide a guide for how the PING review process
-works, and procedurally how to find, conduct and complete a PING privacy review.
+works, and procedurally how to find, conduct, and complete a PING privacy review.
 This document does not describe the *substance* of a review, or the kinds of
-issues to look for in a spec you're reviewing (though if you have questions
-about about the substance of a review you're conducting, please feel
-free to reach out to the PING chairs anytime).
+issues to look for in a spec you're reviewing.  If you have questions
+about about the substance of a review you're conducting, please reach out to the PING chairs.
 
 
 ## Stages of a PING Review
 The following subsections describe the different steps in conducting a review,
-including how to [find a specs to review](#finding-new-proposals),
+including how to [find a spec to review](#finding-new-proposals),
 [where to find the proposed spec text to review](#reviewing-a-spec),
 [how to share your findings on a PING call](#presenting-a-review),
 and [how to present your findings with the proposed spec's authors](#finishing-a-review).
@@ -127,15 +120,15 @@ working group that requested the review in the first place. This
 is done in several steps.
 
 1.  Create GitHub issues for each privacy issue you identified in the
-    proposal's repo *not on the PING privacy-request issue*; the PING
-    privacy-request repo keeps track of privacy review requests PING receives, but
+    proposal's repo.  (PING's
+    privacy-request repo keeps track of privacy review requests we receive, but
     the substance of those reviews (i.e., the issues that need to be addressed
     in the proposed spec) must be filed in the repo for the proposed spec.
     For example, [privacy request #56]([Review #56](https://github.com/w3cping/privacy-request/issues/56)
     is an issue in PING's privacy-request repo, but issues resulting for the review
-    should be filed in the [Secure Payment Confirmation repo](https://github.com/w3c/secure-payment-confirmation/issues).
+    should be filed in the [Secure Payment Confirmation repo](https://github.com/w3c/secure-payment-confirmation/issues).)
 
-    Create one issue in the working group's repo for each privacy issue you
+    Create one issue in the working group's repo for each issue you
     identified. We suggest starting each filed issue by noting i) that the issue
     was the result of a PING privacy review, and ii) with a link back to
     the privacy-requests issue requesting the privacy review. See, for example,
@@ -195,6 +188,7 @@ else.
 ## Links And Resources
 - [PING Home Page](https://www.w3.org/Privacy/IG/)
 - [PING "Privacy Requests" Repo](https://github.com/w3cping/privacy-request/)
+- [Review label cheat sheet](https://w3c.github.io/horizontal-issue-tracker/HOWTO) - how to use the issue tracker
 - [Self-Review Questionnaire: Security and Privacy](https://w3ctag.github.io/security-questionnaire/)
 - [Mitigating Browser Fingerprinting in Web specifications](https://www.w3.org/TR/fingerprinting-guidance/)
 - [Privacy Anti-Patterns in Standards](https://www.w3.org/blog/2019/06/privacy-anti-patterns-in-standards/)
