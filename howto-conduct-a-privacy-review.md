@@ -186,7 +186,7 @@ please notify or involve a PING chair or team leader, who will gladly
 get involved to try and address the situation.
 
 Finally, if for whatever reason you are not able or interested in continuing
-the discussion around an issue you field, please also notify a PING chair
+the discussion around an issue you filed, please also notify a PING chair
 or team leader. We understand that obligations and availability change over time,
 and we'll be glad to work with you to transfer ownership of an issue to someone
 else.
