@@ -79,6 +79,8 @@ Note the issues you identify during your review for later discussion. Issues
 could either be specific issues you've identified, or general concerns
 you're not sure about and would like to discuss with other members in PING.
 
+When you find other-than-privacy issues, feel free to open issues in the proposal's GitHub repo.  PING reviews typically happen as part of "wide review", in which all concerns about a spec are fair game. Those issues don't need to be discussed on the PING call nor tracked in our tooling.
+
 
 ### <a id="presenting-a-review" />3. Presenting Your Review to PING
 The next step is to present your findings to the rest of PING, usually by
