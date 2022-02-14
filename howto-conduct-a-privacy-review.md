@@ -151,7 +151,8 @@ is done in several steps.
         to bring the issue to the group's attention, but don't think the issue is
         critical. The `privacy-needs-resolution` label denotes that you think the
         identified issue is critical, and that the proposal should not continue
-        through the standardization process until the issue is addressed.
+        through the standardization process until the issue is addressed.  If you can't add the labels yourself,
+        ask the PING chairs to add them.
     
 2.  Once you've created an issue in the proposed spec's repo for each
     privacy concern you've identified, add a comment on the original
