@@ -8,7 +8,7 @@ assignees: ''
 
 ---
 
-We have conducted a self-review of our spec [SPEC_NAME_HERE](URL_GOES_HERE) [This must be a dated version in the TR namespace, not an editors draft.] , and the results can be found at URL_FOR_THE_ISSUE_IN_YOUR_REPO.
+We have conducted a self-review of our spec [SPEC_NAME_HERE](URL_GOES_HERE) [This must be a dated version in the TR namespace, not an editor's draft.] , and the results can be found at URL_FOR_THE_ISSUE_IN_YOUR_REPO.
 
 Please check our findings.
 
