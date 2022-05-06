@@ -10,7 +10,7 @@ assignees: ''
 In the issue title above add the document name followed by the date of this request, then the date of your proposed deadline for comments.
 
 - name of spec to be reviewed:
-- URL of spec: [This must be a dated version in the TR namespace, not an editors draft.]
+- URL of spec: [This must be a dated version in the TR namespace, not an editor's draft.]
 
 - Current Rec/Note phase?
 - What and when is your next expected transition?
