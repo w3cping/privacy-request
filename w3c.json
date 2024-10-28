@@ -1,7 +1,7 @@
 {
-  "group": "ig/privacy",
+  "group": "wg/privacy",
   "contacts": [
-    "plehegar"
+    "tjwhalen"
   ],
   "policy": "open",
   "repo-type": "tool"
