@@ -1,15 +1,20 @@
-PING Privacy Reviews
+Privacy Reviews
 ===
 
-The purpose of this repo is to track what privacy reviews have been requested
-from PING, their status, and what member(s) of PING is doing the privacy
-review.
+This repo is for [Privacy Working Group Review Request](https://github.com/w3cping/privacy-request/issues). 
 
-This repo is for internal [PING](https://www.w3.org/Privacy/IG/) use; it is
-not intended for external use.  If you are a W3C group requesting a privacy
-review through PING for horizontal review, see
-[The Guide](https://w3c.github.io/documentreview/#how_to_get_horizontal_review).
+If you are looking for a review from the Privacy Working Group, see 
+**[How to get horizontal review, W3C Guidebook](https://www.w3.org/guide/documentreview/#how-to-get-horizontal-review)**.
 
-If you have any questions or concerns, please contact one of the PING
+## Purpose
+
+The purpose of this repo is to request and track privacy reviews that have been requested
+from the Privacy Working Group, their status, and which participant(s) of the Privacy Working
+Group is doing the privacy review.
+
+## Help
+
+
+If you have any questions or concerns, please contact one of the Privacy Working Group
 chairs or the W3C team contact, which can be found on the
-[PING](https://www.w3.org/Privacy/IG/) homepage.
+[Privacy Working Group participants]([https://www.w3.org/Privacy/IG/](https://www.w3.org/groups/wg/privacy/participants/)) list.
